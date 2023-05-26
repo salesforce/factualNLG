@@ -1,0 +1,13 @@
+Document: [ARTICLE]
+
+Summary: [SUMMARY_SENTENCES]
+
+Given a document and summary above, for each of the tasks below provide a "Yes" or "No" answer.
+
+Task 1: Are there any factual inconsistencies due to a wrong date or time mentioned in the summary that is not entailed by the document?
+Task 2: Are there any factual inconsistencies due to a wrong entity (person, organization) mentioned in the summary that is not entailed by the document?
+Task 3: Are there any factual inconsistencies due to an incorrectly negated fact mentioned in the summary that is not entailed by the document?
+Task 4: Are there any factual inconsistencies due to a number being incorrectly quoted in the summary that is not entailed by the document?
+Task 5: Are there any factual inconsistencies due to a pronoun being incorrectly used or creating ambiguity in the summary that is not entailed by the document?
+Task 6: Is the summary factually consistent overall? If you have answered "Yes" to any of the Tasks 1-5, then provide an overall answer of "No", otherwise provide an overall answer of "Yes".
+

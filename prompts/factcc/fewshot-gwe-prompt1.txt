@@ -1,0 +1,10 @@
+Given the document below, determine if the summary is factually consistent with the document. Together with the answer provide evidence that supports it. 
+
+Document: [ARTICLE]
+
+Summary: [SUMMARY_SENTENCES]
+
+Answer "Yes" or "No" and provide evidence.
+
+Answer:
+

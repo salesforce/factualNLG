@@ -1,0 +1,27 @@
+Below, you are given a edited text document, in which the edits have been marked in XML form (e.g., <ins>inserted text</ins> or <del>deleted text</del>).
+Your task is to select the types of edits that have been applied to the document overall. You can select several of the four types, but at least one is relevant:
+- `entity_modification`: is when a named entity or phrase has been modified to change the meaning of the document. For instance changing `15 minutes` to `20 minutes` or `New York` to `New Jersey`.
+- `antonym_swap`: is when a word has been replaced with its antonym or other similar word that alters the document's meaning. For instance changing `good` to `bad` or `increase` to `flatten`.
+- `hallucinated_fact_insertion`: when a new fact has been inserted into the document, and there's a chance it was not supported in the original document. For instance adding that a protagonist `does not like to talk with strangers`.
+- `negation_insertion_removal`: when a negation has been inserted or removed from the document. For instance changing `I like to eat apples` to `I do not like to eat apples`.
+First, we give you one example of each type of edit:
+```
+--------------------
+The <del> founder </del> <ins> CEO </ins> of the troubled digital start-up Ozy Media has been arrested on fraud charges as part of a scheme to prop up the financially struggling company.
+Label: entity_modification
+--------------------
+National air traffic management agency Airservices Australia says it has shifted from prototyping to the delivery phase of an effort to deploy an airspace management tool for small, <del> uncrewed </del> <ins> crewed </ins> aircraft such as <del> commercial </del> <ins> military </ins> unmanned air vehicles.
+Label: antonym_swap
+--------------------
+A conversation between a sales agent and a potential client discussing different types of insurance products, including <del> home, auto, </del> <ins> only </ins> life <del>, </del> and health insurance. The sales agent provides information on different home insurance plans and pricing, as well as available discounts for clients with good credit scores and other factors.
+Label: hallucinated_fact_insertion
+--------------------
+Astronomers have used the James Webb Space Telescope to peer inside the heart of spiral galaxies, where young stars carve out glowing paths. The new images <ins> do not </ins> reveal the surprising weblike structures the stars create inside galaxies as they evolve.
+Label: negation_insertion_removal
+```
+
+Now, you are given a new edited document. Please select the types of edits that have been applied to the document overall:
+```
+<DOC_DIFF>
+```
+Answer with a comma-separated list of the types of edits that have been applied in the edited document above.

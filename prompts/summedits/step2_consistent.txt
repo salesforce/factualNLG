@@ -1,0 +1,8 @@
+Document:
+[CONSISTENT_SUMMARY]
+
+Given the document above, propose 10 rephrasing candidates of the document such that:
+- Each rephrasing conserves all the meaning from the original document.
+- Each rephrasing starts with "[FIRST_THREE_WORDS] [...]", and ends with "[LAST_THREE_WORDS]"
+- Each rephrasing does not modify capitalized words (which are entities) and only modifies lower-cased words.
+- Careful: for each candidate you propose (1 through 10) you should only change exactly one word from the original document.

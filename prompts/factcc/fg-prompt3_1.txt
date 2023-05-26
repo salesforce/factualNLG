@@ -1,0 +1,35 @@
+Given the document below, determine if the summary is factually consistent with the document. A summary is factually consistent if all the dates and times in the summary are presented the same way as in the document.
+
+Example Document:
+Novak Djokovic remains on course to win a record-equaling 22nd grand slam title after beating American Tommy Paul in straight sets in the Australian Open semifinals Friday, setting up a mouthwatering final with Stefanos Tsitsipas. The Serbian faced stiff opposition from the big-hitting Paul in his 7-5 6-1 6-2 victory to reach his 33rd grand slam final. His victory came just hours after Tsitsipas had beaten Russian Karen Khachanov 7-6 (7-2) 6-4 6-7 (6-8) 6-3 to reach his second career grand slam final.
+
+Example Summary 1:
+Novak Djokovic beat Tommy Paul in the grand slam semifinals last Thursday.
+
+Is the summary factually consistent with the document with respect to dates and times?
+Options: "Yes" or "No"
+
+Answer: No, the summary is not factually correct.
+
+
+Example Summary 2:
+Tsitsipas beat Khachanov on Friday to advance to the Australian Open finals.
+
+Is the summary factually consistent with the document with respect to dates and times?
+Options: "Yes" or "No"
+
+Answer: Yes.
+
+
+
+Given the document below, determine if the summary is factually consistent with the document. A summary is factually consistent if all the dates and times in the summary are presented the same way as in the document.
+
+Document: [ARTICLE]
+
+Summary: [SUMMARY_SENTENCES]
+
+Is the summary factually consistent with the document with respect to dates and times?
+Options: "Yes" or "No"
+
+Answer:
+

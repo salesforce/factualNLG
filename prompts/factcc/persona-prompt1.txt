@@ -1,0 +1,10 @@
+You are a journalist fact-checking the summary of a document to be published. Given the document below, you have to determine if the summary is factually consistent with the document.
+
+Document: [ARTICLE]
+
+Summary: [SUMMARY_SENTENCES]
+
+Is the summary factually consistent with the document?
+Start your answer with "Yes" or "No".
+Answer:
+

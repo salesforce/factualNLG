@@ -1,0 +1,12 @@
+Document:
+[DOCUMENT]
+
+Consistent Summary:
+[CONSISTENT_SUMMARY]
+
+Given the document and consistent summary above, generate 10 slightly modified versions of the summary such that the modifications introduce a factual inconsistency. For example, you can modify a number, date, or entity, and negate or modify a statement. Here are some rules to follow:
+- Each modification should change at most 3-4 words from the original summary, and keep the rest the same.
+- Each modification should change a different part of the original summary.
+- Your modifications should be challenging to detect: modify minimally while still introducing a factual inconsistency.
+- The factual inconsistency you introduce should be subtle. For example if you replace an entity, make sure you replace it with another entity from the document.
+- Each modification should start with "[FIRST_THREE_WORDS] [...]", and end with "[LAST_THREE_WORDS]"

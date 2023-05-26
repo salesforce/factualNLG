@@ -1,0 +1,22 @@
+Given the document below, determine if the summary is factually consistent with the document.
+
+Example Document: Novak Djokovic remains on course to win a record-equaling 22nd grand slam title after beating American Tommy Paul in straight sets in the Australian Open semifinals Friday, setting up a mouthwatering final with Stefanos Tsitsipas. The Serbian faced stiff opposition from the big-hitting Paul in his 7-5 6-1 6-2 victory to reach his 33rd grand slam final. His victory came just hours after Tsitsipas had beaten Russian Karen Khachanov 7-6 (7-2) 6-4 6-7 (6-8) 6-3 to reach his second career grand slam final.
+
+Example Summary 1: Novak Djokovic will face Stefanos Tsitsipas in the Australian Open final after beating Tommy Paul in straight sets.
+
+Options: "Yes" or "No"
+
+Answer: Yes, the summary is factually consistent with the article.
+
+
+
+Given the document below, determine if the summary is factually consistent with the document.
+
+Document: [ARTICLE]
+
+Summary: [SUMMARY_SENTENCES]
+
+Options: "Yes" or "No"
+
+Answer: 
+

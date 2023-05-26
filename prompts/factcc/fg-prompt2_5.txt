@@ -1,0 +1,11 @@
+Given the document below, determine if the summary is factually consistent with the document. A summary is factually consistent if all the pronouns in the summary are presented the same way as in the document and they do not introduce any ambiguity.
+
+Document: [ARTICLE]
+
+Summary: [SUMMARY_SENTENCES]
+
+Is the summary factually consistent with the document with respect to pronouns used?
+Options: "Yes" or "No"
+
+Answer:
+

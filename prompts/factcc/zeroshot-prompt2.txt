@@ -1,0 +1,11 @@
+Given the document below, determine if the summary is factually consistent with the document.
+A summary is factually consistent if all statements in the summary are entailed by the document.
+
+Document: [ARTICLE]
+
+Summary: [SUMMARY_SENTENCES]
+
+Options: "Yes" or "No"
+
+Answer:
+

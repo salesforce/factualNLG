@@ -1,0 +1,11 @@
+Given the document below, determine if the summary is factually consistent with the document. A summary is factually consistent if all the dates and times in the summary are presented the same way as in the document.
+
+Document: [ARTICLE]
+
+Summary: [SUMMARY_SENTENCES]
+
+Is the summary factually consistent with the document with respect to dates and times?
+Options: "Yes" or "No"
+
+Answer:
+

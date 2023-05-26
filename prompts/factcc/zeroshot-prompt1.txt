@@ -1,0 +1,9 @@
+Given the document below, determine if the summary is factually consistent with the document.
+
+Document: [ARTICLE]
+
+Summary: [SUMMARY_SENTENCES]
+
+Options: "Yes" or "No"
+
+Answer:
