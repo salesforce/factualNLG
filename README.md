@@ -1,5 +1,11 @@
 # Factual Consistency in Summarization 
 
+Can you tell which edits of summaries are consistent, and which are inconsistent?
+
+<p align="center">
+  <img width="650" src="images/summedits_examples.png">
+</p>
+
 
 ## SummEdits Benchmark (Section 6-7)
 
